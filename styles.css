@@ -1,0 +1,214 @@
+@media (prefers-reduced-motion: no-preference){
+  * {
+    box-sizing: border-box;
+    font-family: Tahoma;
+    scroll-behavior: smooth;
+  }
+}
+header {
+  background-color: #000000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  padding: 10px 0;
+  margin-bottom: 10px;
+  color: #ffffff;
+  overflow: hidden;
+}
+body {
+  background-image: url(https://i.imgur.com/2ZNIu3N.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 0px 0px;
+  color: #ffffff;
+}
+
+.logo {
+  width: 33.3%;
+}
+
+#logo {
+  width: min(20vw, 205px);
+  aspect-ratio: 5119 / 1500;
+  margin: 0 20px;
+}
+
+h1 {
+  display: block;
+  text-align: center;
+  margin: 0;
+  white-space: nowrap;
+}
+
+p {
+  display: block;
+  text-align: center;
+  margin: 0;
+}
+
+nav {
+  margin: 0 20px;
+  display: flex;
+}
+
+nav > ul {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1rem 1rem 1rem auto;
+  padding: 0;
+  
+}
+
+nav > ul > li {
+  display: block;
+  margin: 0 0.5rem;
+  color: #ffffff;
+  padding: 0.2rem;
+}
+
+main {
+  width: 50%;
+  min-width: 550px;
+  margin: 120px auto 40px auto;
+  background-color: #000000;
+  border-radius: 15px;
+  padding: 15px;
+  border: 2px solid #ffffff;
+  box-shadow: 0 0 10px #ffffff,
+              0 0 20px #ffffff,
+              0 0 20px #050CFA,
+              0 0 25px #050CFA,
+              0 0 30px #050CFA,
+              0 0 20px #050CFA inset;
+  overflow: auto;
+}
+
+#image {
+  max-width: 100%;
+  /*max-width: 450px;*/
+  width: 100%;
+  aspect-ratio: 9 / 13;
+  margin: 0 auto;
+  display: block;
+}
+
+.img-container > figcaption {
+  margin-top: 1em;
+  text-align: center;
+}
+
+.img-container {
+  width: 35%;
+  min-width: 250px;
+  margin: 1em 1em;
+}
+
+.intro-text {
+  width: 60%;
+  word-wrap: break-word;
+  min-width: 450px;
+}
+
+.intro-text p {
+  line-height: 1.3em;
+}
+
+.intro-text > p {
+  text-align: left;
+}
+
+.introduction {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: auto;
+}
+
+.divider {
+  height: 0.2em;
+  margin: 1em auto;
+    box-shadow: 0 0 10px #ffffff,
+              0 0 2px #ffffff,
+              0 0 2px #050CFA,
+              0 0 2.5px #050CFA,
+              0 0 3px #050CFA,
+              0 0 1px #050CFA inset;
+  background-color: #ffffff;
+  width: 80%;
+}
+
+.achievements, .timeline {
+  margin: 1em auto;
+  text-align: center;
+  width: 60%;
+  min-width: 450px;
+  overflow: auto;
+}
+
+.enumeration {
+  text-align: left;
+  padding-left: 1em;
+}
+
+.enumeration li {
+  margin: 1em 0;
+  line-height: 1.3em;
+}
+
+h2 {
+  margin-top: 1rem;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+nav > ul > li:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+li a{
+  text-decoration: none;
+  color: inherit;
+}
+
+#tribute-link {
+  color: #ffffff;
+}
+
+html {
+  scroll-padding-top: 80px;
+}
+
+#title {
+  width: 33.3%;
+  min-width: 345px;
+  text-align: center;
+}
+
+.navigation {
+  width: 33.3%;
+}
+
+footer {
+  padding-top: 10px;
+  height: 100px;
+  background-color: #000000;
+}
+
+body {
+  margin: 0;
+}
+
+address {
+  text-align: center;
+}
